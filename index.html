@@ -18,11 +18,41 @@
             padding: 30px 0;
         }
         .content {
-            padding: 20px 0;
+            padding: 40px 0;
+        }
+        .contact-section {
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .contact-section h2 {
+            margin-bottom: 20px;
+            color: #222;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.2s;
+        }
+        .contact-info a:hover {
+            color: #0056b3;
+        }
+        .contact-description {
+            max-width: 500px;
+            margin: 0 auto 20px auto;
+            color: #666;
         }
         .footer {
             text-align: center;
-            padding: 20px 0;
             color: #666;
             font-size: 0.9em;
         }
@@ -32,19 +62,14 @@
     <div class="header">
         <h1>Origo</h1>
         <p>The house of fashion inspiration</p>
+
+        <div class="contact-section">
+            <h2>Get in Touch</h2>
+            <div class="contact-description">
+                <p>You can reach us at <a href="mailto:info@origo-app.com">info@origo-app.com</a> </p>
+            </div>
+        </div>
     </div>
-<!-- 
-    <div class="content">
-        <h2>About</h2>
-        <p>Brief description of your app and its purpose.</p>
-
-        <h2>Legal Information</h2>
-        <p>Terms of service, privacy policy, and any other required legal information.</p>
-
-        <h2>Contact</h2>
-        <p>How to get in touch with your team.</p>
-    </div> -->
-
     <div class="footer">
         <p>© 2025 Origo App. All rights reserved.</p>
     </div>
